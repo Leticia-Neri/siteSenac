@@ -1,0 +1,225 @@
+.bg-primary {
+    background-color: white !important;
+}
+
+.bg-sencondary {
+    color: blue !important;
+}
+
+#logo {
+    /*width: 200px;*/
+    width: 130px;
+    
+
+}
+
+.cor {
+    color: rgb(0, 74, 140) !important;
+    font-size: 12px;
+}
+.cor:hover {
+    color: rgb(238, 142, 53) !important;
+    font-size: 12px;
+}
+
+
+.background {
+    background-color: rgb(0, 74, 140);
+}
+.corCinza{
+    color: rgb( 120, 132, 158) !important;
+}
+#amarelo{
+    background-color: rgb( 247, 189, 35) !important;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+#amarelo:hover{
+    background-color: rgb(216, 167, 30) !important;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+#roxo{
+    background-color: rgb( 199, 97, 203) !important;
+    border: none;
+}
+#roxo:hover{
+    background-color: rgb(203, 64, 207) !important;
+    border: none;
+}
+.laranja{
+    background-color: rgb( 255, 144, 87) !important;
+    border: none;
+}
+.laranja:hover{
+    background-color: rgb(247, 120, 57) !important;
+    border: none;
+}
+#azul{
+    background-color: rgb( 74, 151, 230) !important;
+    border: none;
+}
+#azul:hover{
+    background-color: rgb(45, 137, 230) !important;
+    border: none;
+}
+#azulEscuro{
+    background-color: rgb( 102, 94, 255) !important;
+    border: none;   
+} 
+#azulEscuro:hover{
+    background-color: rgb(63, 54, 241) !important;
+    border: none;   
+} 
+#verde{
+    background-color: rgb( 62, 204, 166) !important;
+    border: none;
+}
+#verde:hover{
+    background-color: rgb(41, 204, 160) !important;
+    border: none;
+}
+#azulClaro{
+    background-color: rgb( 58, 208, 255) !important;
+    border: none;
+}
+#azulClaro:hover{
+    background-color: rgb(31, 197, 248) !important;
+    border: none;
+}
+#rosa{
+    background-color: rgb( 255, 94, 150) !important;
+    border: none;
+}
+#rosa:hover{
+    background-color: rgb(247, 58, 124) !important;
+    border: none;
+}
+.fundocinza{
+    background-color: rgb( 228, 232, 240);
+}
+.textblue{
+    color: rgb( 0, 74, 140);
+    
+}
+.coluna{
+    background-color: white;
+    border-radius: 15px;
+    height: 170px;
+    width: 200px;
+    
+   
+    
+    
+}
+.bg-footer{
+    background-color: rgb( 0, 74, 140);
+    height: 200px;
+}
+.corlink{
+    color:white !important;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.corlink:hover{
+    color:white !important;
+    font-weight: bolder;
+}
+#teste{
+    text-align: center;
+}
+
+.imgFundo{
+    background-image: url(./imagem/img_carousel.jpg);
+    height: 600px;
+    background-size: cover;
+    
+}
+.imgFundo2{
+    background-image: url(./imagem/img_carousel_roxa.jpg);
+    height: 600px;
+    background-size: cover;
+
+}
+.imgFundo3{
+   background-image: url(./imagem/img_carousel_3.jpg);
+   background-size: cover;
+   height: 600px;
+}
+.imgFundo4{
+    background-image:url(./imagem/img_carousel_4.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.imgFundo5{
+    background-image:url(./imagem/imagem_carousel_5.png);
+    background-size: cover;
+    height: 600px;
+}
+.imgFundo6{
+    background-image:url(./imagem/img_carousel._6.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.textoP{
+    font-size: 23px;
+    color: white !important;
+    margin-top: 400px;
+    
+}
+.corBotao{
+    background-color: white;
+    color: rgb( 0, 74, 140);
+    border: none;
+}
+.corBotao:hover{
+    background-color: rgb(216, 212, 212);
+    color: rgb( 0, 74, 140);
+    border: none;
+
+}
+.bg-footerEscuro{
+    background-color:rgb(1, 61, 114); ;
+}
+.ultimaParte{
+    color: white;
+    font-size: 12px;
+    padding-top: 15px;
+
+}
+.backgroundDeFundo{
+    background-image: url('imagem/background.png');
+    height: 600px;
+    margin-top: 120px;
+}
+
+.lugar{
+    padding-left: 90px;
+    padding-top: 100px;
+    font-size: 70px;
+    color: white;
+    
+    
+}
+.lugarTop{
+    padding-left: 90px;
+
+}
+#barraPesq{
+    border: solid;
+    width: 700px;
+    margin: 80px auto;
+    height: 55px;
+    color: white;
+    border-radius: 5px;
+}
+.textoPP{
+    font-size: 23px;
+    color: white !important;
+    margin-top: 338px;
+
+}
+

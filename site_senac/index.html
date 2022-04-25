@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/18ce4abc6b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/logoBranco.png">
+    <title>Senac São Paulo - Cursos Livres,...</title>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <header class="shadow-sm fixed-top">
+        <nav class="navbar navbar-expand-xl navbar-light bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <h1 class="d-none">Senac</h1>
+                    <img src="imagem/logoBranco.png" id="logo" class="pt-4 px-3">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pt-5 pb-4"  id="menu">
+                    <ul class="navbar-nav" >
+                        <li class="nav-item px-4"><a class="nav-link cor fw-bold tamanho " href="index.html">Para Você</a>
+                        </li>
+                        <li class="nav-item pe-4"><a class="nav-link cor fw-bold tamanho" href="unidade.html">Unidades</a>
+                        </li>
+                        <li class="nav-item pe-4"><a class="nav-link cor fw-bold tamanho" href="paraempresas.html">Para
+                                Empresas</a>
+                        </li>
+                        <li class="nav-item pe-4"><a class="nav-link cor fw-bold tamanho" href="osenac.html">O senac</a></li>
+                        <li class="nav-item pe-4"><a class="nav-link cor fw-bold tamanho" href="servico.html">Serviços</a>
+                        </li>
+                        <li class="nav-item pe-4"><a class="nav-link cor fw-bold tamanho" href="bolsasedescontos.html">Bolsas
+                                e
+                                Descontos</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="mx-4"><img src="imagem/lupa.png"></a>
+                </div>
+
+                <div class="pt-5  pb-4 pend">
+                    <button class="btn btn-primary background  d-none d-md-block" style="width: 200px; border: none;" type="submit"> <i class="fas fa-user-alt me-2"></i>Login/Área
+                        exclusiva </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="backgroundDeFundo "> <!--inicio do fundo-->
+        <div class= "col-12 d-none d-lg-block d-xl-block"> <!--teste-->
+            <div >
+                <p class="lugar "><span style="color:rgb(255, 144, 87);">Explore|</span> o Senac</p> <!--style="color: white;"-->
+                <p style="color:white;" class="lugarTop fw-bold">Toda forma de aprender tem o seu valor. O Senac valoriza todas elas.</p>
+            </div>
+            <div id="barraPesq">
+                <i class="fas fa-search" style="margin-left: 20px;"></i>
+                <label for="messagem" style="margin:10px 30px;">O que você procura?</label>
+            </div>
+        </div><!--fim do teste-->
+
+        <!--copie a mesma coisa, caso não der certo apagar tudo isso-->
+        <div class="col-3 invisible"></div>
+        <div class= "col-6 d-block d-lg-none d-xl-none position-absolute top-50 start-50 translate-middle mt-5"> <!--teste-->
+            <div >
+                <p class="lugar " style="font-size: 50px;"><span style="color:rgb(255, 144, 87); font-size: 50px;">Explore|</span> o Senac</p> <!--style="color: white;"-->
+                <p style="color:white;" class="lugarTop fw-bold">Toda forma de aprender tem o seu valor. O Senac valoriza todas elas.</p>
+            </div>
+            <div id="barraPesq" class="d-none d-xl-block d-xxl-none"  >
+                <i class="fas fa-search" style="margin-left: 20px;"></i>
+                <label for="messagem" style="margin:10px 30px;">O que você procura?</label> 
+            </div>
+        </div><!--apagar ate aqui-->
+        <div class="col-3 invisible"></div>   
+    </section><!--final do fundo-->
+    <main>
+        <section class=" d-xl-block d-lg-block d-none d-md-none d-sm-none d-xs-none">
+            <div class="container">
+                <h2 class="text-center fs-1 corCinza" style="margin: 40px 0px 35px 0px;">Conheça nossos cursos</h2>
+                <div class="text-center">
+                    <div style="margin: 0px 150px;">
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=amarelo>Técnico </a>
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=roxo >Ensino médio
+                            técnico </a>
+                        <a href="#" class="btn btn-primary background laranja fs-5 mx-1 my-2" >Livre</a>
+                        <a href="#" class="btn btn-primary background laranja fs-5 mx-1 my-2" >Senac
+                            online</a>
+                        <a href="#" class="btn btn-primary background laranja fs-5 mx-1 my-2" >idiomas</a>
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2 " id=azul
+                            >Graduação</a>
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=azulEscuro
+                            >Pós-graduação</a>
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=verde
+                            >Extensão</a>
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=azulClaro >Jovem
+                            aprendiz</a>
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=rosa >EAD</a>
+                    </div>
+                </div>
+        </section>
+
+        <section class=" d-xl-none d-lg-none"><!--TESTE INCIO-->
+            <div class="container">
+                <h2 class="text-center fs-1 corCinza" style="margin: 40px 0px 35px 0px;">Conheça nossos cursos</h2>
+                <div class="text-center" >
+                    <div class="d-block">
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=azulClaro >Jovem
+                            aprendiz</a>
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=rosa >EAD</a>
+                   </div>
+                   <div class="d-block">
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=azulEscuro
+                            >Pós-graduação</a>
+                        <a href="#" class="btn btn-primary background fs-5 mx-1 my-2" id=verde
+                            >Extensão</a>
+                   </div>
+                   <div class="d-block">
+                        
+                        <a href="#" class="btn btn-primary background laranja fs-5 mx-1 my-2" >Senac
+                            online</a>
+                        <a href="#" class="btn btn-primary background laranja fs-5  mx-1 my-2" >idiomas</a>
+                        <a href="#" class="btn btn-primary background fs-5  mx-1  my-2 " id=azul
+                            >Graduação</a>
+                    </div>
+                    <div class="d-block">
+                        
+                            <a href="#" class="btn btn-primary background fs-5  mx-1 my-2" id=amarelo>Técnico </a>
+                            <a href="#" class="btn btn-primary background fs-5  mx-1 my-2" id=roxo>Ensino médio
+                            técnico</a>
+                            <a href="#" class="btn btn-primary background laranja fs-5  mx-1 my-2" >Livre</a>
+                    </div>
+                 </div>
+        </section><!--TESTE FIM!!-->    
+        <section class="fundocinza pb-5">
+            <div class="container ">
+
+                <h2 class=" text-center pt-4 pb-4 fs-1 corCinza my-2">Acesso rápido</h2>
+                <div class="d-xl-block d-lg-block d-md-none d-sm-none d-xs-none d-xxl-none d-none"><!-- se der errado apagar essa linha-->
+                <div class="row justify-content-center">
+                    
+                    <div class="coluna p-3 mx-4 mb-2 textblue fs-4 shadow">
+                        <div class="mt-3">
+                            <i class="fas fa-book  d-block" style="font-size: 40px;"></i>
+                            
+                            Bolsas de estudo 
+                        </div>
+                    </div>
+                    <div class="coluna p-3 mx-4 mb-2 textblue fs-4 shadow">
+                        <div class="mt-3">
+                            <div class="mt-3"> 
+                                <i class="fas fa-percentage d-block" style="font-size: 40px;" ></i>
+                                Descontos e Parcelamento 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="coluna p-3 mx-4 mb-2 textblue fs-4 shadow">
+                        <div class="mt-3"> 
+                            <i class="fas fa-comments d-block mb-3" style="font-size: 40px;" ></i>
+                            Fale Conosco 
+                        </div>
+                    </div>
+                    <div class="coluna p-3 mx-4 mb-2 textblue fs-4 shadow d-xl-block d-lg-block d-lg-none">
+                        <div class="mt-3">
+                            <i class="fas fa-star d-block" style="font-size: 40px;"></i>
+                            Trabalhe conosco 
+                        </div>
+                    </div>
+                </div>
+               </div> <!--e apagar esse tbm-->
+            </div>
+            <div class="container d-xl-none d-lg-none d-md-block  "> <!-- teste 2 COPIA do de cima-->
+                <div style="color: rgb( 0, 74, 140);">
+                    <div class="col-6 " style="background-color: white; border-radius: 10px; margin: 0 auto;">
+                        <a href="#" style="text-decoration: none; color: rgb( 0, 74, 140)!important;"><div class="d-block pt-3 ">
+                            <i class="fas fa-book ms-2" style="font-size: 20px;"></i>
+                            <p class="d-inline ms-3" >Bolsas de estudo </p> 
+                            <hr>
+                        </div></a>
+                        <a href="#" style="text-decoration: none; color: rgb( 0, 74, 140)!important;"><div class="d-block ">
+                            <i class="fas fa-percentage ms-2" style="font-size: 20px;"></i>
+                            <p class="d-inline ms-3" >Descontos e Parcelamento  </p> 
+                            <hr>
+                        </div></a>
+                        <a href="#" style="text-decoration: none; color: rgb( 0, 74, 140)!important;"><div class="d-block">
+                            <i class="fas fa-comments ms-2" style="font-size: 20px;"></i>
+                            <p class="d-inline ms-3" >Fale Conosco  </p> 
+                            <hr>
+                        </div></a>
+                        <a href="#" style="text-decoration: none; color: rgb( 0, 74, 140)!important;"><div class="d-block  pb-3">
+                            <i class="fas fa-star  ms-2" style="font-size: 20px;"></i>
+                            <p class="d-inline ms-3" >Trabalhe conosco </p> 
+                            
+                        </div></a>
+                    </div>
+                </div>
+            </div>  
+            <!-- final do teste Segundo teste -->
+        </section>
+        <section>
+        <div class= "col-12 d-none d-lg-block d-xl-block"> <!--inicio do segundo teste-->
+        <h2 class="text-center fs-1 corCinza" style="margin: 40px 0px 35px 0px;">Explore Senac</h2>
+        
+        <div class="container"> <!--inicio do conatiner-->
+        <div class="mb-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+               
+                <div class="carousel-inner container">
+                  <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col imgFundo m-1 rounded-3 "> 
+                            <p class="text-uppercase fw-bold textoP ms-4" style="width: 200px;">E muito mais tempo para pagar.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="btn btn-primary background fs-5 mx-1 my-2 corBotao">confira os cursos </a>
+                             </div>
+                         </div> 
+                         <div class="col imgFundo2 m-1 rounded-3 "> 
+                            <p class="text-uppercase fw-bold textoP ms-4" style="width: 200px;">Com opção imperdíveis de Parcelamento.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="btn btn-primary background fs-5 mx-1 my-2 corBotao">confira os cursos </a>
+                             </div>
+                         </div>  
+                         <div class="col imgFundo3 m-1 rounded-3 "> 
+                            <p class="text-uppercase fw-bold textoP ms-4" style="width: 200px;">E parcelamento imperdível.</p>
+                            <div class="d-flex justify-content-center mt-5">
+                                <a href="#" class="btn btn-primary background fs-5 mx-1 my-2 corBotao">confira os cursos </a>
+                             </div>
+                         </div>    
+                     </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row">
+                           <div class="col imgFundo4 m-1 rounded-3 "> 
+                               <p class="text-uppercase fw-bold textoP ms-4" style="width: 200px;">e parcelamento imperdível</p>
+                               <div class="d-flex justify-content-center">
+                                   <a href="#" class="btn btn-primary background fs-5 mx-1 my-2 corBotao">confira os cursos </a>
+                                </div>
+                            </div> 
+                            <div class="col imgFundo5 m-1 rounded-3 "> 
+                               <p class="text-uppercase fw-bold textoP ms-4 " style="width: 200px;">e parcelamento imperdível.</p>
+                               <div class="d-flex justify-content-center">
+                                   <a href="#" class="btn btn-primary background fs-5 mx-1 my-2 corBotao">confira os cursos </a>
+                                </div>
+                            </div>  
+                            <div class="col imgFundo6 m-1 rounded-3 "> 
+                               <p class="text-uppercase fw-bold textoPP ms-4" style="width: 200px;">30% desconto com opções imperdíveis de parcelamento.</p>
+                               <div class="d-flex justify-content-center">
+                                   <a href="#" class="btn btn-primary background fs-5 mx-1 my-2 corBotao">confira os cursos </a>
+                                </div>
+                            </div>    
+                        </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--final do container-->
+    </div> <!--final do segundo teste-->
+    </section>
+    </main>
+    <footer class="bg-footer">
+        <div class="container">
+            <div class="pb-4 pt-3 d-xl-block d-lg-block d-md-block d-sm-none d-xs-none d-none">
+                <a href="index.html"><img src="imagem/logoTransp.png" style="width: 100px;"></a>
+            </div>
+            <div class="row ">
+                <div class="col-2 ">
+                    <nav>
+                        <ul class="list-inline">
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px; ">Unidades</a></li>
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px;">Sobre o Senac</a></li>
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px;">Centro universitário </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-2 ">
+                    <nav>
+                        <ul class="list-inline">
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px; ">Senac EAD</a></li>
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px;">Editora</a></li>
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px;">Hotéis</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-2 ">
+                    <nav>
+                        <ul class="list-inline">
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px; ">Trabalhe Conosco</a></li>
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px;">Licitação</a></li>
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px;">Setor3</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-2 ">
+                    <nav>
+                        <ul class="list-inline">
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px; ">Biblioteca</a></li>
+                            <li class="nav-item d-none d-md-block"><a class="corlink" href="#"
+                                    style="font-size: 12px;">Blog</a></li>
+                            <li class="nav-item d-none d-md-block"><a class=" corlink" href="#"
+                                    style="font-size: 12px;">Blog Senac Moda Informação</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-4  ">
+                    <nav>
+                        <ul class="list-inline">
+                            <li class="nav-item d-none d-md-block corlink" style="margin-left: 20px;"  >
+                                <span >Siga-nos</span>
+                            </li>
+                            <li class="nav-item d-none d-md-block" style="margin-left: 20px;">
+                                
+                                <a href="#"><i class="fab fa-facebook-square mt-2 ms-1" style="font-size: 22px; color: white;"></i><a>
+                                <a href="#"><i class="fab fa-twitter-square mt-2 ms-1" style="font-size: 22px; color: white;"></i><a>
+                                <a href="#"><i class= "fab fa-linkedin mt-2 ms-1" style="font-size: 22px; color: white;"></i><a>
+                                <a href="#"><i class="fab fa-youtube-square mt-2 ms-1" style="font-size: 22px; color: white;"></i><a>
+                                <a href="#"><i class= "fab fa-youtube-square mt-2 ms-1" style="font-size: 22px; color: white;"></i><a>
+                                
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="d-xl-none d-lg-none d-md-none d-flex justify-content-center">
+                <img src="imagem/logoTransp.png" style="width: 90px;">
+            </div>
+            <h2 class="d-xl-none d-lg-none d-md-none text-center fs-1 corCinza pt-2" style="color: white !important;">Siga-nos</h2>
+        </div>
+
+    </footer>
+    <div class="bg-footerEscuro " style="height: 50px;">
+        <div class="container">
+            <p class="ultimaParte d-flex justify-content-center">Copyright &copy 2020. Todos os Direitos Reservados</p>
+        </div>
+    </div>
+</body>
+</html>
